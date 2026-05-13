@@ -29,6 +29,17 @@
   <img src="bild3.jpg" alt="Berge">
   <figcaption>Schneebedeckte Berge</figcaption>
 </figure>
+
+  <script>
+  const hobbys = ["klettern", "lesen", "laufen", "Marie"];  // deine eigenen Hobbys und Name eintragen
+  const liste = document.getElementById("liste-hobbys");
+  hobbys.forEach(h => {
+    let li = document.createElement("li");
+    li.textContent = h;
+    liste.appendChild(li);
+  });
+</script>
+
   
 </body>
 </html>
